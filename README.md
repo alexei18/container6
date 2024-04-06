@@ -1,4 +1,3 @@
-```markdown
 # Proiectul containers06
 
 ## Numele lucrării de laborator
@@ -56,4 +55,3 @@ Proiectul containers06 demonstrează implementarea unui mediu de dezvoltare folo
 
 4. **Trebuie să adăugați încă un fișier `app.env` cu variabila de mediu `APP_VERSION` pentru serviciile backend și frontend. Cum se face acest lucru?**
    - Pentru a adăuga un fișier `app.env` cu variabila de mediu `APP_VERSION` pentru serviciile backend și frontend, trebuie să creați mai întâi fișierul `app.env` și să adăugați variabila de mediu în el. Apoi, în fișierul `docker-compose.yml`, adăugați secțiunea `env_file` pentru fiecare serviciu, indicând calea către fișierul `app.env`. Astfel, variabila de mediu va fi încărcată în mediu pentru serviciile respective.
-```
