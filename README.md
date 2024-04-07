@@ -1,4 +1,4 @@
-# Proiectul containers06
+# Containers06
 
 ## Numele lucrării de laborator
 
